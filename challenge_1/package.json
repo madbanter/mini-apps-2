@@ -1,0 +1,30 @@
+{
+  "name": "challenge_1",
+  "version": "1.0.0",
+  "description": "Historical timeline data viewer",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madbanter/hrsf132-mini-apps-2.git"
+  },
+  "author": "Adam Brent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madbanter/hrsf132-mini-apps-2/issues"
+  },
+  "homepage": "https://github.com/madbanter/hrsf132-mini-apps-2#readme",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-paginate": "^7.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
