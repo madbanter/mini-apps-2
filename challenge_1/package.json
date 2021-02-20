@@ -1,12 +1,13 @@
 {
-  "name": "challenge_1",
+  "name": "timeline_viewer",
   "version": "1.0.0",
   "description": "Historical timeline data viewer",
   "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "react-dev": "webpack --watch"
+    "react-dev": "webpack --watch",
+    "start": "json-server --watch data/db.json"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/madbanter/hrsf132-mini-apps-2#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "json-server": "^0.16.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
